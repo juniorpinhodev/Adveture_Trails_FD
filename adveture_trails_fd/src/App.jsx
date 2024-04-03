@@ -1,10 +1,11 @@
 import './App.css'
+import CardTrilha from './Components/CardTrilha'
 
 function App() {
  
   return (
     <div>
-      <h1>Adveture Trails FD</h1>
+      <CardTrilha />
     </div>
   )
 }
