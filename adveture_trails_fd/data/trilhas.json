@@ -1,0 +1,102 @@
+[
+    {
+        "nome": "Trilha da Praia Mole",
+        "cidade_estado": "Florianópolis - SC",
+        "duracao": "2 horas",
+        "trajeto": "Praia Mole até a Galheta",
+        "dificuldade": "Moderada",
+        "tipo": "Costeira",
+        "criador": "Junior Pinho",
+        "imagem_url": "https://images.pexels.com/photos/1578750/pexels-photo-1578750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "nome": "Trilha da Lagoa da Conceição",
+        "cidade_estado": "Florianópolis - SC",
+        "duracao": "3 horas",
+        "trajeto": "Lagoa até o Mirante da Lagoa",
+        "dificuldade": "Fácil",
+        "tipo": "Mata Atlântica",
+        "criador": "Junior Pinho",
+        "imagem_url": "https://images.pexels.com/photos/1009355/pexels-photo-1009355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "nome": "Trilha da Costa da Lagoa",
+        "cidade_estado": "Florianópolis - SC",
+        "duracao": "4 horas",
+        "trajeto": "Praia do Saquinho até a Praia da Solidão",
+        "dificuldade": "Moderada",
+        "tipo": "Costeira",
+        "criador": "Junior Pinho",
+        "imagem_url": "https://images.pexels.com/photos/172510/pexels-photo-172510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "nome": "Trilha da Barra da Lagoa",
+        "cidade_estado": "Florianópolis - SC",
+        "duracao": "2 horas",
+        "trajeto": "Barra da Lagoa até a Praia do Moçambique",
+        "dificuldade": "Moderada",
+        "tipo": "Costeira",
+        "criador": "Junior Pinho",
+        "imagem_url": "https://images.pexels.com/photos/1194235/pexels-photo-1194235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "nome": "Trilha da Lagoinha do Leste",
+        "cidade_estado": "Florianópolis - SC",
+        "duracao": "5 horas",
+        "trajeto": "Praia do Matadeiro até a Lagoinha do Leste",
+        "dificuldade": "Moderada",
+        "tipo": "Costeira",
+        "criador": "Junior Pinho",
+        "imagem_url": "https://images.pexels.com/photos/1118667/pexels-photo-1118667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "nome": "Trilha da Ilha do Campeche",
+        "cidade_estado": "Florianópolis - SC",
+        "duracao": "3 horas",
+        "trajeto": "Praia da Armação até a Ilha do Campeche",
+        "dificuldade": "Moderada",
+        "tipo": "Costeira",
+        "criador": "Junior Pinho",
+        "imagem_url": "https://images.pexels.com/photos/2527559/pexels-photo-2527559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "nome": "Trilha do Morro da Cruz",
+        "cidade_estado": "Florianópolis - SC",
+        "duracao": "2 horas",
+        "trajeto": "Centro de Florianópolis até o Morro da Cruz",
+        "dificuldade": "Fácil",
+        "tipo": "Urbana",
+        "criador": "Junior Pinho",
+        "imagem_url": "https://images.pexels.com/photos/999311/pexels-photo-999311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "nome": "Trilha da Ponta do Sambaqui",
+        "cidade_estado": "Florianópolis - SC",
+        "duracao": "3 horas",
+        "trajeto": "Praia do Sambaqui até a Ponta do Sambaqui",
+        "dificuldade": "Moderada",
+        "tipo": "Costeira",
+        "criador": "Junior Pinho",
+        "imagem_url": "https://images.pexels.com/photos/289327/pexels-photo-289327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "nome": "Trilha da Galheta",
+        "cidade_estado": "Florianópolis - SC",
+        "duracao": "4 horas",
+        "trajeto": "Praia Mole até a Galheta",
+        "dificuldade": "Moderada",
+        "tipo": "Costeira",
+        "criador": "Junior Pinho",
+        "imagem_url": "https://images.pexels.com/photos/213172/pexels-photo-213172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "nome": "Trilha da Pedra Branca",
+        "cidade_estado": "Florianópolis - SC",
+        "duracao": "5 horas",
+        "trajeto": "Rancho Queimado até a Pedra Branca",
+        "dificuldade": "Difícil",
+        "tipo": "Montanha",
+        "criador": "Junior Pinho",
+        "imagem_url": "https://images.pexels.com/photos/161172/cycling-bike-trail-sport-161172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]
