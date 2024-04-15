@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import useFetch from "./Hook/useFetch";
+import Header from "./Components/Header";
 import CardTrilha from "./Components/CardTrilha/";
 
 
@@ -16,9 +17,9 @@ function App() {
 
   return (
     <>
-      
+      <Header />
       <div className="container">
-        <h1 className="titulo">Explore trilhas incríveis</h1>
+        <h1 className="titulo">Trilhas de floripa.com</h1>
         {Array.isArray(trilhas) &&
           trilhas.map((trilha, index) => (
             <CardTrilha dadosTrilha={trilha} key={index} />

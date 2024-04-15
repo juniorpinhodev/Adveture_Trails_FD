@@ -1,41 +1,36 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import * as PropTypes from "prop-types"
+import "./style.css"
 
-function CardTrilha(props) {
-  const { 
-    nomeTrilha,
-    cidadeEstado,
-    duracao,
-    trajeto,
-    dificuldade,
-    tipoTrilha,
-    nomeCriador,
-    imagemURL
-  } = props;
-
+function CardTrilha({dadosTrilha}){
   return (
-    <div>
-      <h1>{nomeTrilha}</h1>
-      <p>Cidade e Estado: {cidadeEstado}</p>
-      <p>Duração: {duracao}</p>
-      <p>Trajeto: {trajeto}</p>
-      <p>Dificuldade: {dificuldade}</p>
-      <p>Tipo de Trilha: {tipoTrilha}</p>
-      <p>Criador: {nomeCriador}</p>
-      <img src={imagemURL} alt={nomeTrilha} />
+    <div className="card_container">
+      <img className="card_imagem" width={360} src={dadosTrilha.imagem_url} alt="imagem trilha" />
+      <h1>{dadosTrilha.nome}</h1>
+      <span>{dadosTrilha.cidade_estado}</span>
+        <div>
+          <p>Duração: {dadosTrilha.duracao}</p>
+          <p>Trajeto: {dadosTrilha.trajeto}</p>
+          <p>Didifuldade: {dadosTrilha.dificuldade}</p>
+          <p>Tipo: {dadosTrilha.tipo}</p>
+          <p>Criador: {dadosTrilha.criador}</p>
+        </div>
     </div>
   );
-}
+};
 
+
+// configuração das props types
 CardTrilha.propTypes = {
-  nomeTrilha: PropTypes.string.isRequired,
-  cidadeEstado: PropTypes.string.isRequired,
-  duracao: PropTypes.string.isRequired,
-  trajeto: PropTypes.string.isRequired,
-  dificuldade: PropTypes.string.isRequired,
-  tipoTrilha: PropTypes.string.isRequired,
-  nomeCriador: PropTypes.string.isRequired,
-  imagemURL: PropTypes.string.isRequired,
+  dadosTrilha: PropTypes.exact({
+    nome: PropTypes.string.isRequired,
+    cidade_estado: PropTypes.string.isRequired,
+    duracao: PropTypes.number.isRequired,
+    trajeto: PropTypes.number.isRequired,
+    dificuldade: PropTypes.string.isRequired,
+    tipo: PropTypes.oneOf(['caminhada / trekking', 'ciclismo']),
+    criador: PropTypes.string.isRequired,
+    imagem_url: PropTypes.string.isRequired
+  })
 };
 
 export default CardTrilha;
