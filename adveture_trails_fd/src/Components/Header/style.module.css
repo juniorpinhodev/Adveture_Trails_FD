@@ -1,22 +1,27 @@
 .header {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 3em;
     background-color: var(--primary);
-    color: var(--white);
+    color: #fff;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   
   .nav {
     width: 80%;
     display: flex;
     flex-direction: row-reverse;
+    padding-right: 1em;
+
   }
   
   .link {
     text-decoration: none;
-    color: var(--white);
+    color: #fff;
     margin: auto 2em;
+
   }
+  
