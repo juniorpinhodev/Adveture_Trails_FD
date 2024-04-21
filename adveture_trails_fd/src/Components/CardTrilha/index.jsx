@@ -5,9 +5,11 @@ import { Chip, Rating } from "@mui/material";
 function CardTrilha({ dadosTrilha }) {
   // Mapeamento dos níveis de dificuldade para valores de Rating
   const dificuldadeMap = {
-    "Fácil": 1,
+    "MuitoFácil" : 1,
+    "Fácil": 2,
     "Moderada": 3,
-    "Difícil": 5
+    "Difícil": 4,
+    "MuitoDifícil" : 5
   };
 
   return (
@@ -46,7 +48,7 @@ CardTrilha.propTypes = {
     estado: PropTypes.string.isRequired,
     duracao: PropTypes.string.isRequired,
     trajeto: PropTypes.string.isRequired,
-    dificuldade: PropTypes.oneOf(["Fácil", "Moderada", "Difícil"]).isRequired,
+    dificuldade: PropTypes.oneOf(["MuitoFácil", "Fácil", "Moderada", "Difícil", "MuitoDifícil"]).isRequired,
     tipo: PropTypes.oneOf(["caminhada / trekking", "ciclismo"]).isRequired,
     nomeUsuario: PropTypes.string.isRequired,
     imagem_url: PropTypes.string.isRequired

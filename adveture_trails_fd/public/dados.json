@@ -19,7 +19,7 @@
             "estado": "SC",
             "duracao": "3 horas",
             "trajeto": "Lagoa até o Mirante da Lagoa",
-            "dificuldade": "Difícil",
+            "dificuldade": "MuitoDifícil",
             "tipo": "caminhada / trekking",
             "nomeUsuario": "Junior Pinho",
             "imagem_url": "https://images.pexels.com/photos/1009355/pexels-photo-1009355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -41,7 +41,7 @@
             "estado": "SC",
             "duracao": "2 horas",
             "trajeto": "Barra da Lagoa até a Praia do Moçambique",
-            "dificuldade": "Moderada",
+            "dificuldade": "MuitoDifícil",
             "tipo": "caminhada / trekking",
             "nomeUsuario": "Junior Pinho",
             "imagem_url": "https://images.pexels.com/photos/1194235/pexels-photo-1194235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -107,7 +107,7 @@
             "estado": "SC",
             "duracao": "5 horas",
             "trajeto": "Rancho Queimado até a Pedra Branca",
-            "dificuldade": "Difícil",
+            "dificuldade": "MuitoDifícil",
             "tipo": "ciclismo",
             "nomeUsuario": "Junior Pinho",
             "imagem_url": "https://images.pexels.com/photos/161172/cycling-bike-trail-sport-161172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

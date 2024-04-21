@@ -143,9 +143,11 @@ function PaginaCadastroTrilha() {
         required: "Este campo é obrigatório"
        })}>
        <option value="">Selecione uma dificuldade</option>
-       <option value="Iniciante">Iniciante</option>
-       <option value="Intermediário">Intermediário</option>
+       <option value="MuitoFácil">Muito Fácil</option>
+       <option value="Fácil">Fácil</option>
+       <option value="Moderada">Moderada</option>
        <option value="Difícil">Difícil</option>
+       <option value="MuitoDifícil">Muito Difícil</option>
       </select>
      </InputWrapper>
 
