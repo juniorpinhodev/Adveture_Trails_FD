@@ -1,12 +1,28 @@
-import './App.css'
+import Header from "./Components/Header";
+import { Outlet } from "react-router-dom";
+import { TrilhasContextProvider } from "./context/TrilhasContext";
+import { ThemeProvider, createTheme } from "@mui/material";
+
+const theme = createTheme({
+ palette: {
+  primary: {
+   main: "#504908"
+  },
+  secondary: {
+   main: "#D8E3D2"
+  }
+ }
+});
 
 function App() {
- 
-  return (
-    <div>
-      <h1>Adveture Trails FD</h1>
-    </div>
-  )
+ return (
+  <TrilhasContextProvider>
+   <ThemeProvider theme={theme}>
+    <Header />
+    <Outlet />
+   </ThemeProvider>
+  </TrilhasContextProvider>
+ );
 }
 
-export default App
+export default App;
