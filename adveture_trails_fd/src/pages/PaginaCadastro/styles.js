@@ -5,7 +5,6 @@ export const PageContainer = styled("div")({
  flexDirection: "column",
  alignItems: "center",
  padding: "3rem 5rem 10rem",
- background: "#D8E3D2"
 });
 
 export const PageTitle = styled("h1")({

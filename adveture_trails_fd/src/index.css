@@ -8,16 +8,18 @@
 }
 
 :root {
-  color-scheme: light dark;
-  color: #ffffffde;
-  background-color: #242424;
-
-  /* --primary: #504908;
+  --primary: #504908;
   --white: #ffffff;
-  --black: #181818; */
+  --black: #181818;
+
+  color: --black;
+  background-color: #D8E3D2;
+
+
 }
 
 .container {
   padding-top: 4em;
-  
+  text-align: center;
+
 }
