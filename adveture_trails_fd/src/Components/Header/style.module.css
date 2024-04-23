@@ -1,10 +1,16 @@
 .header {
-  height: 3em;
-  background-color: var(--primary);
-  color: var(--white);
+  position: fixed;
   display: flex;
+  color: var(--white);
+  background-color: var(--primary);
+  height: 3em;
   align-items: center;
   justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 1000;
  }
  
  .nav {
