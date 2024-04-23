@@ -192,7 +192,7 @@ function PaginaCadastroTrilha() {
    </FormComponent>
 
    <video autoPlay muted loop className="video-background">
-  <source src="src/assets/cadastroTrilha.mp4" type="video/mp4" />
+  <source src="https://videos.pexels.com/video-files/4763826/4763826-uhd_4096_2160_24fps.mp4" type="video/mp4" />
   Seu navegador não suporta vídeos em HTML5.
 </video>
 

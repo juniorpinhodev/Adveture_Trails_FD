@@ -2,7 +2,7 @@ function PaginaInicial() {
   return (
     <div className="container">
       <video autoPlay muted loop className="video-background">
-        <source src="src/assets/videoTrilha4.mp4" type="video/mp4" />
+        <source src="https://videos.pexels.com/video-files/4763786/4763786-uhd_4096_2160_24fps.mp4" type="video/mp4" />
         Seu navegador não suporta vídeos em HTML5.
       </video>
       <div className="content">
