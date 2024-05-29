@@ -2,7 +2,7 @@
 
 Bem-vindo ao Adveture Trails FD, uma aplicação CRUD em React onde os usuários podem encontrar e cadastrar trilhas para se aventurar e curtir a natureza. Este projeto tem como objetivo ajudar os entusiastas da natureza a descobrir novas trilhas e compartilhar suas experiências com outros.
 
-Esta aplicação está na web, para testes, no endereço http://www.adveture-trails-fd.vercel.app
+Esta aplicação está na web, para testes, no endereço https://www.adveture-trails-fd.vercel.app
 
 ## Índice
 
